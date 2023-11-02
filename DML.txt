@@ -1,0 +1,23 @@
+-- Inserción de registros en la tabla 'persona'
+INSERT INTO persona (cc, nombre, apellido, genero, edad)
+VALUES
+    (1, 'Juan', 'Pérez', 'M', 30),
+    (2, 'María', 'González', 'F', 25);
+
+-- Inserción de registros en la tabla 'profesion'
+INSERT INTO profesion (id, nom, des)
+VALUES
+    (1, 'Ingeniero', 'Ingeniería de Software'),
+    (2, 'Médico', 'Medicina General');
+
+-- Inserción de registros en la tabla 'estudios'
+INSERT INTO estudios (id_prof, cc_per, fecha, univer)
+VALUES
+    (1, 1, '2020-06-15', 'Universidad A'),
+    (2, 2, '2018-03-20', 'Universidad B');
+
+-- Inserción de registros en la tabla 'telefono'
+INSERT INTO telefono (num, oper, duenio)
+VALUES
+    ('123456789', 'Movistar', 1),
+    ('987654321', 'Claro', 2);
